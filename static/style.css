@@ -197,19 +197,31 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
+/* Goals aur Mission/Vision container ko center karne ke liye */
+.goals-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin: 20px auto;
+}
+
 .goal-card {
     background: #f0e2ff;
     padding: 22px;
     border-radius: 12px;
-    width: 240px;
-    line-height: 1.6;
+    width: 280px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .goal-card h3 {
     color: #5b168a;
     margin-bottom: 12px;
+    text-align: center;
 }
-
 
 /* School Gallery */
 
