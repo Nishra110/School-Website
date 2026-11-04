@@ -7,10 +7,11 @@
 <body>
 
 <nav>
-    <img src="{{ url_for('static', filename='logo.PNG') }}" alt="School Logo">
-    <div class="logo">GOVT.(N) MADRASSAH-TUL-BANAT HIGH SCHOOL HYDERABAD </div>
-
-    <ul>
+    <div class="nav-brand">
+        <img src="{{ url_for('static', filename='logo.PNG') }}" alt="School Logo" class="school-logo">
+        <div class="logo">GOVT.(N) MADRASSAH-TUL-BANAT HIGH SCHOOL HYDERABAD</div>
+    </div>
+    <ul class="nav-links">
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/classes">Classes</a></li>
@@ -18,7 +19,7 @@
         <li><a href="/contact">Contact</a></li>
     </ul>
 </nav>
-
+    
 <section class="hero">
     <h1>GOVT.(N) MADRASSAH-TUL-BANAT HIGH SCHOOL HYDERABAD</h1>
 
